@@ -9,7 +9,6 @@ import in_frames.in_compensation;
 import java.util.Date;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
-import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;
@@ -22,7 +21,7 @@ import london.rescumanager.RescueManager;
 public class newHome extends javax.swing.JFrame {
 
 //LOGIN.login login = new login();
-    themes theme = new themes();
+   // themes theme = new themes();
 newHome nhome;
     public newHome() {
         initComponents();
@@ -348,7 +347,7 @@ newHome nhome;
         jMenuItem1.setText("Zahara theme");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+             //   jMenuItem1ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem1);
@@ -356,7 +355,7 @@ newHome nhome;
         jMenuItem4.setText("Autumn theme");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem4ActionPerformed(evt);
+               // jMenuItem4ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem4);
@@ -364,7 +363,7 @@ newHome nhome;
         jMenuItem5.setText("Business theme");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem5ActionPerformed(evt);
+             //   jMenuItem5ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem5);
@@ -372,7 +371,7 @@ newHome nhome;
         jMenuItem6.setText("Creme Look");
         jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem6ActionPerformed(evt);
+              //  jMenuItem6ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem6);
@@ -380,7 +379,7 @@ newHome nhome;
         jMenuItem7.setText("GreenMagic theme");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem7ActionPerformed(evt);
+              //  jMenuItem7ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem7);
@@ -388,7 +387,7 @@ newHome nhome;
         jMenuItem8.setText("Windows Classic");
         jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem8ActionPerformed(evt);
+              //  jMenuItem8ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem8);
@@ -396,7 +395,7 @@ newHome nhome;
         jMenuItem9.setText("Windows Default");
         jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem9ActionPerformed(evt);
+              //  jMenuItem9ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem9);
@@ -404,7 +403,7 @@ newHome nhome;
         jMenuItem10.setText("Magma theme");
         jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem10ActionPerformed(evt);
+              //  jMenuItem10ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem10);
@@ -412,7 +411,7 @@ newHome nhome;
         jMenuItem11.setText("Raven Look");
         jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem11ActionPerformed(evt);
+              //  jMenuItem11ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem11);
@@ -420,7 +419,7 @@ newHome nhome;
         jMenuItem12.setText("Metal theme");
         jMenuItem12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem12ActionPerformed(evt);
+             //   jMenuItem12ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem12);
@@ -428,7 +427,7 @@ newHome nhome;
         jMenuItem13.setText("Nimbus theme");
         jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem13ActionPerformed(evt);
+              //  jMenuItem13ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem13);
@@ -436,7 +435,7 @@ newHome nhome;
         jMenuItem14.setText("FieldOfWheat Look");
         jMenuItem14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem14ActionPerformed(evt);
+              //  jMenuItem14ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem14);
@@ -444,7 +443,7 @@ newHome nhome;
         jMenuItem15.setText("Mango theme");
         jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem15ActionPerformed(evt);
+              //  jMenuItem15ActionPerformed(evt);
             }
         });
         jMenu5.add(jMenuItem15);
@@ -545,7 +544,7 @@ newHome nhome;
 
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+/*    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         try {
             theme.zahara();
         } catch (UnsupportedLookAndFeelException ex) {
@@ -648,7 +647,7 @@ newHome nhome;
             System.out.println(ex);
         }
     }//GEN-LAST:event_jMenuItem15ActionPerformed
-
+*/
     private void jMenuItem16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem16ActionPerformed
         System.gc();
         System.exit(0);

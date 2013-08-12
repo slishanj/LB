@@ -11,9 +11,7 @@ import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 import london.newHome;
 
 /**
- *
  * @author joshua
- *
  */
 public final class login extends javax.swing.JFrame {
 

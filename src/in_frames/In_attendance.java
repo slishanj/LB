@@ -2,7 +2,6 @@ package in_frames;
 
 import Connection.jdbc;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.Date;
 import java.util.Vector;
 import javax.swing.JOptionPane;

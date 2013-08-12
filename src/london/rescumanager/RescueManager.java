@@ -2,7 +2,6 @@ package london.rescumanager;
 
 import LOGIN.login;
 import java.io.IOException;
-import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
@@ -182,7 +181,7 @@ public class RescueManager extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     public static void main(String args[]) {
